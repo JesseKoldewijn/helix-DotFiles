@@ -11,6 +11,11 @@ name = "css"
 formatter = { command = 'prettier', args = ["--parser", "css"] }
 
 [[language]]
+name = "scss"
+formatter = { command = 'prettier', args = ["--parser", "scss"] }
+auto-format = true
+
+[[language]]
 name = "javascript"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
@@ -18,4 +23,9 @@ auto-format = true
 [[language]]
 name = "typescript"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "tsx"
+formatter = { command = 'prettier', args = ["--stdin-filename", "file.tsx"] }
 auto-format = true
