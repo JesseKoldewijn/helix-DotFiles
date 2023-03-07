@@ -10,8 +10,8 @@
 ## How to install
 
 Clone this repo into:
-```sh ~/.config/helix``` (create this directory if it doesn't exist yet)\
-Then run ```sh :reload-config```
+```~/.config/helix``` (create this directory if it doesn't exist yet)\
+Then run ```:reload-config```
 
 ## Author
 
